@@ -21,6 +21,7 @@ const bed = document.getElementById("bed");
 const hint = document.getElementById("hint");
 
 const noteOverlay = document.getElementById("noteOverlay");
+const notePhoto = document.getElementById("notePhoto");
 const noteMonth = document.getElementById("noteMonth");
 const noteText = document.getElementById("noteText");
 const noteClose = document.getElementById("noteClose");
@@ -61,7 +62,17 @@ memories.forEach((text, i) => {
 });
 
 function petalColor(i) {
-  const palette = ["#e8a0bf", "#f2c14e", "#c97b5a", "#a7c4a0", "#e8a0bf", "#f2c14e", "#c97b5a", "#f2c14e"];
+  // One distinct color per month (index 0 = Month 1 ... index 7 = Month 8)
+  const palette = [
+    "#e8a0bf", // Month 1 - rose pink
+    "#f2c14e", // Month 2 - gold
+    "#c97b5a", // Month 3 - terracotta
+    "#8fbf8f", // Month 4 - soft green
+    "#b48ee8", // Month 5 - lavender
+    "#7ec8e3", // Month 6 - sky blue
+    "#f28482", // Month 7 - coral
+    "#f6d55c", // Month 8 - sunflower gold
+  ];
   return palette[i % palette.length];
 }
 
@@ -82,6 +93,8 @@ function updateHint() {
 function showNote(monthNum, text) {
   noteMonth.textContent = monthNum === 8 ? "Eight Months" : `Month ${monthNum}`;
   noteText.textContent = text;
+  notePhoto.src = `css/images/${monthNum}.jpg`;
+  notePhoto.alt = `Month ${monthNum} photo`;
   noteOverlay.classList.remove("hidden");
 }
 
