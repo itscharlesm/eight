@@ -10,7 +10,7 @@ const memories = [
   "Lucky I have you. Happy kaayo ko saimong gifts, feel kaayo nako imong love. Dili ko sanay makadawat ug gifts mao grabe kaayo ko maka react. Thank you sa mga gifts nimo by, basking karon ginahatagan gihapon ko nimo. Ganahan kaayo kotanan saimong gifts.",
   "Always sa mati atung layo na mga date, don't worry daghan patag date aside sa Mati. Next week hoping na madayun atung Talaingod date. Saligi lng ko by, I know motor ato gamit pero mag ingat ko especially pag naa ka. Wala pakoy car and chopper but don't worry, dalhon takag mga places na nindot kaayo.",
   "Kani na month sabay sabay tag problema, akong pag overthink, akong violations saimo na nahurt ka and na question nimo imo sarili. Sorry sa tanan by and thank you saimo patience ha? Don't give up on us by, I value you so don't worry I'll be better. I love you.",
-  "Eight months with you, and every month we encountered has been my favorite. I'm so blessed to have you by! I'm really looking forward to future months and years with you. I love you so much, my pretty baby iah! 💖",
+  "Eight months with you, and every month we encountered has been my favorite. Happy Eight Monthsary byyy! Just know that I'm really blessed to have you! I'm really looking forward to future months and years with you. I love you so much, my pretty baby iah! 💖",
 ];
 
 const bgMusic = document.getElementById("bgMusic");
